@@ -1,0 +1,35 @@
+{
+  "linear_regression": {
+    "mae": 1.8902136780894578,
+    "rmse": 3.5262564593315417,
+    "r2": 0.8659785516050411
+  },
+  "random_forest": {
+    "mae": 1.829937166335139,
+    "rmse": 3.524526566904027,
+    "r2": 0.866110014431577,
+    "feature_importance": {
+      "day_of_week": 0.010841200549801455,
+      "month": 0.0061699953958391845,
+      "day": 0.009823568391311413,
+      "is_weekend": 0.008357934847897094,
+      "blood_type_encoded": 0.001585328786663333,
+      "prev_day_demand": 0.012646561735205751,
+      "prev_week_demand": 0.008927637590816473,
+      "rolling_7d_avg": 0.9416477727024651
+    }
+  },
+  "training_date": "2026-03-01T13:44:41.639908",
+  "training_samples": 23136,
+  "test_samples": 5784,
+  "features": [
+    "day_of_week",
+    "month",
+    "day",
+    "is_weekend",
+    "blood_type_encoded",
+    "prev_day_demand",
+    "prev_week_demand",
+    "rolling_7d_avg"
+  ]
+}
